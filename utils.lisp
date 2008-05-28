@@ -20,7 +20,7 @@
 (defmacro task-name (task)
   `(cadr (second (cdr ,task))))
 
-(defmacro task-name (task)
+(defmacro task-id (task)
   `(cadr (nth 6 (cdr ,task))))
 
 (defmacro task-hours (task)
